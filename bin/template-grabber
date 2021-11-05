@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 require = require('esm')(module /*, options*/);
-require('../src/interface').interface(process.argv);
+require('../src/interfaceCommand.js').interfaceCommand(process.argv);
