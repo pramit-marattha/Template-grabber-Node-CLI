@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/37651620/140489784-3b86e563-7147-4047-9f0f-b9aff991c2d0.png" width=300>
+<img src="https://user-images.githubusercontent.com/37651620/140509922-a36601f8-9045-48ab-a169-341558bf9584.png" width=300>
 </p>
 
 ###### Command Line Interface ( to automatically setup pre-configured React , viteReact and JavaScript initial project template ) crafted using NodeJS and external third-party library like:
