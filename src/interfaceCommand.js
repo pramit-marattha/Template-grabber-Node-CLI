@@ -1,5 +1,6 @@
 import arg from "arg";
 import inquirer from "inquirer";
+import { templateGrabber } from "./main.js";
 
 function argumentOptionsParser(rawArguments) {
   let args = arg(
@@ -64,5 +65,6 @@ async function inquireUndeclaredItems(opts) {
 export async function interfaceCommand(args) {
   let opts = argumentOptionsParser(args);
   opts = await inquireUndeclaredItems(opts);
-  console.log(opts);
+  // console.log(opts);
+  await templateGrabber(opts);
 }
